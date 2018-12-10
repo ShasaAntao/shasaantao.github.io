@@ -113,6 +113,8 @@ hr {
 .own img
 {
     border-radius:50%;
+    width: 200px;
+    height: 200px;
 }
 .nav>li>a{
 	padding: 20px 25px;
