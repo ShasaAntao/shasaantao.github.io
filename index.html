@@ -18,10 +18,34 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			
 			<script src="js/modernizr.custom.js"></script>
+			<style>
+				.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+				color: green;
+				background-color: white;
+				padding: 10px;
+				}
+				.nav>li>a 
+				{
+					padding: 10px;
+					font-size: 17px;
+				}
+				.side-nav
+				{
+					margin-top: 30px;
+				}
+				.list-btn
+				{
+					font-size: 17px;
+				}
+				.drop-btn
+				{
+					padding: 10px;
+				}
+		    </style>
 		</head>
 		<body>
 			<!-- <header> -->
-			<nav class="navbar navbar-default navbar-fixed-top">
+			<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					
 						<div class="">
@@ -37,7 +61,7 @@
 					        </div>
 
 					        <!-- Collect the nav links, forms, and other content for toggling -->
-					        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					       <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					        
 					          <ul class="nav navbar-nav navbar-right">
 					            <li class="active"><a href="index.html" class="page-scroll">About Me</a></li>
@@ -57,35 +81,52 @@
                                <li><a href="cv.html" class="page-scroll">CV</a></li>
 					        
 					          </ul>
-					        </div><!-- /.navbar-collapse -->
+					        </div> -->
+					        <!-- /.navbar-collapse -->
 						
 
 						</div>
                   </div>
 			</nav>
 			<!-- </header> -->
-			<section style="margin-top: 120px;">
-				<div class="container">
-					<div class="sqs-block-content"><figure>
-						<blockquote>
-						<span>“</span>...We can only see a short distance ahead, but we can see plenty there that needs to be done.<span>”</span>
-						</blockquote>
-						<figcaption class="source">— Alan Turing</figcaption>
-						</figure>
-					</div>
-				</div>
+			<section>
+				
 			</section>
 
 			<section>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 text-center about-me">
-							<h2>About Me</h2>
+							
 
 						</div>
 					</div>
 					<div class="row">
+						<div class="col-md-4 text-center own">
+							<img src="./images/bf.jpg">
+
+							<ul class="nav nav-pills nav-stacked side-nav">
+					            <li class="active"><a href="index.html" class="page-scroll">About Me</a></li>
+					            
+					            <li><a href="publications.html" class="page-scroll">Publications</a></li>
+					            <li>
+                                <div class="dropdown drop-btn">
+                                <button class="dropdown-toggle list-btn" type="button" data-toggle="dropdown" data-hover="dropdown">
+                                 projects <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="p1.html">3-REVOLUTE ORIENTATION SENSING MECHANISM</a></li>
+                                    <li><a href="p2.html">COMPREHENSIVE STUDY OF BURR REDUCTION</a></li>
+                                  </ul>
+                                </div>  
+                               </li>
+                               <li><a href="cv.html" class="page-scroll">CV</a></li>
+					        
+					          </ul>
+
+						</div>
 						<div class="col-md-8 about-mecontent">
+							<h2 style="text-align: center;font-size: 30px;">About Me</h2>
 							<p>My interest in Robotics began with my involvement in school projects when I successfully built a beetle-bot with a battery, two motors, a few magnets and pieces of guitar strings. I was thrilled when this miniature device was able to avoid, rather, change course when any obstacle was encountered. I  was thrilled but not satisfied. I needed something that could overcome challenges, not retreat and find another way out. Overcoming challenges did not mean that it should be difficult. Sometimes, the simplest solution is the best solution. This theory was validated when I experienced ‘Karakuri Kaizen’ being used to solve seemingly complex issues during my internship.
 							</p>
 							<p>My undergraduate project further underlined this thinking, when I developed a simple mechanism that could be used in complex procedures in systems analogous to a Robot wrist and also in remote sensing applications like Tele-surgery or offsite control of gimbal mounted cameras.</p>
@@ -96,17 +137,25 @@
 							<p>Corporate life taught me an important lesson; customers are just as important as the technology we make for them. I found value in relating my research concepts to solving relevant problems in society and this gave me a new found sense of satisfaction. I took advantage of the flexibility and adaptability of innovative business models and tried to implement them in a variety of applications spanning from Agriculture to Healthcare.</p>
 
 							<p>I believe that these academic and corporate experiences now enable me to blend Robotics and Entrepreneurship in order to be equipped to take on future endeavours aimed at human benefit by personalizing technology for people.</p>
+		                        
+		                    <div class="sqs-block-content"><figure>
+							<blockquote>
+							<span>“</span>...We can only see a short distance ahead, but we can see plenty there that needs to be done.<span>”</span>
+							</blockquote>
+							<figcaption class="source">— Alan Turing</figcaption>
+							</figure>
+						    </div>
+
 
 						</div>
-						<div class="col-md-4 text-center own">
-							<img src="./images/Scan0001.jpg">
-
-						</div>
+						
 					</div>
+
+				
 				</div>
 			</section>
 
-			<section style="margin-top: 50px;margin-bottom: 50px;">
+			<section style="margin-top: 0px;margin-bottom: 70px;">
 				<div class="container">
 				<div class="row">
 					<div class="col-md-12">

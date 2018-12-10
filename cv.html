@@ -18,11 +18,34 @@
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			
 			<script src="js/modernizr.custom.js"></script>
+			<style>
+				.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+				color: green;
+				background-color: white;
+				padding: 10px;
+				}
+				.nav>li>a 
+				{
+					padding: 10px;
+					font-size: 17px;
+				}
+				.side-nav
+				{
+					margin-top: 30px;
+				}
+				.list-btn
+				{
+					font-size: 17px;
+				}
+				.drop-btn
+				{
+					padding: 10px;
+				}
+		    </style>
 		</head>
 		<body>
 			<!-- <header> -->
-			<!-- <header> -->
-			<nav class="navbar navbar-default navbar-fixed-top">
+			<nav class="navbar navbar-default">
 				<div class="container-fluid">
 					
 						<div class="">
@@ -38,10 +61,52 @@
 					        </div>
 
 					        <!-- Collect the nav links, forms, and other content for toggling -->
-					        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					       <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					        
 					          <ul class="nav navbar-nav navbar-right">
-					            <li><a href="index.html" class="page-scroll">About Me</a></li>
+					            <li class="active"><a href="index.html" class="page-scroll">About Me</a></li>
+					            
+					            <li><a href="publications.html" class="page-scroll">Publications</a></li>
+					            <li>
+                                <div class="dropdown drop-btn">
+                                <button class="dropdown-toggle list-btn" type="button" data-toggle="dropdown" data-hover="dropdown">
+                                 projects <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="p1.html">3-REVOLUTE ORIENTATION SENSING MECHANISM</a></li>
+                                    <li><a href="p2.html">COMPREHENSIVE STUDY OF BURR REDUCTION</a></li>
+                                  </ul>
+                                </div>  
+                               </li>
+                               <li><a href="cv.html" class="page-scroll">CV</a></li>
+					        
+					          </ul>
+					        </div> -->
+					        <!-- /.navbar-collapse -->
+						
+
+						</div>
+                  </div>
+			</nav>
+			<!-- </header> -->
+			<section>
+				
+			</section>
+
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 text-center about-me">
+							
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 text-center own">
+							<img src="./images/bf.jpg">
+
+							<ul class="nav nav-pills nav-stacked side-nav">
+					            <li class=""><a href="index.html" class="page-scroll">About Me</a></li>
 					            
 					            <li><a href="publications.html" class="page-scroll">Publications</a></li>
 					            <li>
@@ -58,41 +123,50 @@
                                <li class="active"><a href="cv.html" class="page-scroll">CV</a></li>
 					        
 					          </ul>
-					        </div><!-- /.navbar-collapse -->
-						
 
 						</div>
-                  </div>
-			</nav>
-			<!-- </header> -->
-			<section style="margin-top: 120px;">
-				<div class="container">
-					<div class="row">
+						<div class="col-md-8 about-mecontent">
+							
+
+
+
+                   <section style="margin-top: 30px;">
+			
+				
 						<div class="col-md-12 text-center cv">
-							<h2>Curriculum Vitae</h2>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section style="margin-top: 30px;">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center cv">
-							<a href=".\images\Shasa_Antao-Resume.pdf"><img src=".\images\pdf.jpg" style="width: 75%;border: 1px solid #d0c7c7;"></a>
+							<a href=".\images\Shasa_Antao-Resume.pdf" target="_blank"><img src=".\images\pdf.jpg" style="width: 75%;border: 1px solid #d0c7c7;"></a>
 
 						</div>
-					</div>
-				</div>
+				
 			</section>
              
 
-             <section style="margin-top: 120px;">
-             </section>
 
-			
-			
+
+
+                            
+
+
+						    </div>
+
+
+						</div>
+						
+					</div>
+
+				
+				</div>
+			</section>
+
+			<section style="margin-top: 0px;margin-bottom: 70px;">
+				<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+			    </div>
+			</section>
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="js/jquery-2.2.4.min.js"></script>
@@ -103,7 +177,11 @@
 			<script src="js/main.js"></script>
 
 			<script src="js/modality.js"></script>
-			
+			<script>
+		       
+			</script>
+
+		
 
 		</body>
 	</html>
