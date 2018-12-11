@@ -112,9 +112,9 @@ hr {
 }
 .own img
 {
-    border-radius:20%;
+    border-radius:60%;
     width: 350px;
-    height: 275px;
+    height: 350px;
 }
 .nav>li>a{
 	padding: 20px 25px;
